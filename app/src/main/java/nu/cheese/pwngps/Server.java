@@ -53,7 +53,7 @@ public class Server extends NanoHTTPD {
                     return newFixedLengthResponse(Response.Status.OK, "application/json", obj.toString());
                 }
             } catch (Exception e) {
-                Log.d("uh", e.toString());
+                Log.e("serve", e.toString());
             }
             // If we end up here assume something went wrong
             return newFixedLengthResponse(Response.Status.INTERNAL_ERROR, "application/json", "{}");
