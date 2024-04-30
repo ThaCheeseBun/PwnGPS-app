@@ -4,6 +4,9 @@ paw-gps but less hacky for pwnagotchi (and now a real app!).
 # DISCALIMER
 Early access software AND my first time making an Android app so BUGS WILL OCCUR, please report your findings.
 
+# Requirements
+- Android 11 or newer (more compatibility planned).
+
 # Installation
 - Download latest apk from releases and install.
 - Grant required permissions.
